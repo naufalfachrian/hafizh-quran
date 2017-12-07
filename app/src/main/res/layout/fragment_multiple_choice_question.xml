@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="id.hilal.hafizhquran.feature.test.MultipleChoiceQuestionFragment">
+
+    <TextView
+        android:id="@+id/questionTitle"
+        android:paddingTop="40dp"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp"
+        android:paddingBottom="12dp"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment" />
+
+    <RadioGroup
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:layout_marginBottom="6dp"
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:layout_marginBottom="6dp"
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:layout_marginBottom="6dp"
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+</LinearLayout>
